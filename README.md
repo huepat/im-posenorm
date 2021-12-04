@@ -9,7 +9,7 @@ This solution contains the code for the publication:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Remote Sensing, 2021, 13(23), 4765*<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*https://www.mdpi.com/2072-4292/13/23/4765*<br/>
 
-See imposenorm/Program.cs for a simple executable example, how IMPoseNorm is used.
+See im-posenorm/Program.cs for a simple executable example, how IMPoseNorm is used.
 
 Please cite the paper if you are using IM-PoseNorm in the context of a scientific publication.
 
