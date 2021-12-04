@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>HuePat.IMPoseNorm.Eval</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\im-posenorm-lib\im-posenorm-lib.csproj" />
+  </ItemGroup>
+
+</Project>

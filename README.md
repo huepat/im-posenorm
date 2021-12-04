@@ -2,12 +2,16 @@
 
 Dear colleagues,
 
-Thank you for your interest in our work!
+This solution contains the code for the publication: 
 
-This repository will contain the code for the publication "Pose Normalization of Indoor Mapping Datasets Partially Compliant with the Manhattan World Assumption".
-The code will be uploaded within the next weeks.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Hübner, P.; Weinmann, M.; Wursthorn, S. & Hinz, S. (2021).*<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pose Normalization of Indoor Mapping Datasets Partially Compliant with the Manhattan World Assumption.*<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Remote Sensing, 2021, 13(23), 4765*<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*https://www.mdpi.com/2072-4292/13/23/4765*<br/>
 
-Thank you for your understanding.
+See imposenorm/Program.cs for a simple executable example, how IMPoseNorm is used.
+
+Please cite the paper if you are using IM-PoseNorm in the context of a scientific publication.
 
 Best regards
 
