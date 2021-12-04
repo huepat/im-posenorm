@@ -2,7 +2,7 @@
 
 Dear colleagues,
 
-This solution contains the code for the publication: 
+This repository contains the code for the publication: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Hübner, P.; Weinmann, M.; Wursthorn, S. & Hinz, S. (2021).*<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pose Normalization of Indoor Mapping Datasets Partially Compliant with the Manhattan World Assumption.*<br/>
