@@ -58,9 +58,7 @@ namespace HuePat.IMPoseNorm {
                 horizontalAxis);
 
             // Export the normalized mesh
-            new PLYWriter() {
-                Encoding = Util.IO.PLYEncoding.ASCII
-            }.Write(
+            new PLYWriter().Write(
                 "./demo_mesh_normalized.ply",
                 mesh);
 
