@@ -150,33 +150,12 @@ namespace HuePat.IMPoseNorm.Util {
         public static Vector3d GetCentroid(
                 this IShape shape) {
 
-            object @lock = new object();
-            (Vector3d, long) centroid = (new Vector3d(0.0), 0);
-
-            Parallel.ForEach(
-                shape.Points,
-                () => (new Vector3d(0.0), 0),
-                (point, loopState, localCentroid) => {
-
-                    localCentroid.Item1 += (point.Position - localCentroid.Item1) / ++localCentroid.Item2;
-
-                    return localCentroid;
-
-                },
-                localCentroid => {
-
-                    lock (@lock) {
-
-                        long newCount = centroid.Item2 + localCentroid.Item2;
-
-                        centroid.Item1 = (double)centroid.Item2 / newCount * centroid.Item1
-                            + (double)localCentroid.Item2 / newCount * localCentroid.Item1;
-                        centroid.Item2 = newCount;
-                    }
-
-                });
-
-            return centroid.Item1;
+            return shape
+                    .Points
+                    .AsParallel()
+                    .Select(point => point.Position)
+                    .Aggregate((position1, position2) => position1 + position2)
+                / shape.Points.Count;
         }
 
         public static Vector3d WeightedMean(

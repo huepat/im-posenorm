@@ -34,7 +34,7 @@ namespace HuePat.IMPoseNorm {
                     new Vector3d(15.0, 5.0, 2.5)).Mesh
             });
 
-            // Note: You can load triangle meshes with the PLYReader (for more information, see the ReadMe of the repository):
+            // Note: You can load triangle meshes with the PLYReader:
             // mesh = new PLYReader().ReadMesh("path/to/MeshFile.ply");
 
             // rotate the demo mesh by 19° around the vertical z-axis, an by 13 degree around the horizontal x-axis
@@ -79,7 +79,7 @@ namespace HuePat.IMPoseNorm {
                     // Note: instead of evaluating random rotations, rotations can also be specified explicitely as:
                     //Angles = new (double, double, double)[] { 
                     //    (verticalAngle_1, HorizontalAngle1_1, HorizontalAngle1_2),
-                    //    (verticalAngle_2, HorizontalAngle1_2, HorizontalAngle1_2),
+                    //    (verticalAngle_2, HorizontalAngle2_2, HorizontalAngle2_2),
                     //    ...
                     //}
             });
